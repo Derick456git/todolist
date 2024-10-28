@@ -1,0 +1,58 @@
+/* Container and Row styles */
+.container-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height to vertically center */
+  margin-top: 0;
+}
+
+.row-custom {
+  width: 100%; /* Ensure the row takes full width */
+  justify-content: center;
+}
+
+/* Column styling */
+.col-custom {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px; /* Restrict the max width of the form container */
+  width: 100%;
+}
+
+/* Form styling */
+.form-custom {
+  max-width: 500px;
+  margin: auto;
+}
+
+.form-custom .form-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-custom .form-control {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button Styling */
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
